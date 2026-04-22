@@ -44,3 +44,8 @@ desktop.ini
 # Local environment files
 .env
 .env.*
+
+# Local release artifacts
+releases/*.zip
+releases/*.tar
+releases/*.tar.gz

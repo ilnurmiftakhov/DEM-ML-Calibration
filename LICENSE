@@ -1,0 +1,34 @@
+MIT License for code; restricted use notice for bundled research data and manuscript materials
+
+Copyright (c) 2026 Ilnur Miftakhov
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the software code contained in this repository (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE CODE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE CODE.
+
+Additional repository notice
+----------------------------
+
+Unless explicitly stated otherwise in a separate file, the following materials
+are NOT covered by the MIT permission above and remain all rights reserved:
+- bundled research datasets and source data files;
+- manuscript drafts, publication-oriented text, and article files;
+- generated reports intended for grant, editorial, or submission workflows;
+- third-party content included for reference.
+
+These non-code materials may not be redistributed or reused beyond applicable
+law without explicit permission from the repository owner.

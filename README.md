@@ -66,6 +66,8 @@
 ```text
 DEM-ML-Calibration/
 ├── README.md
+├── README.en.md
+├── LICENSE
 ├── .gitignore
 ├── requirements.txt
 ├── Структура данных.xlsx                  # исходная master-таблица проекта
@@ -80,6 +82,8 @@ DEM-ML-Calibration/
 │   └── article_results/                  # bootstrap, ablation, LOGO-аналитика
 ├── notes/
 │   └── plan_DEM_ML.md                    # краткий рабочий план исследования
+├── docs/
+│   └── summary_for_grant.md              # краткий one-page brief для гранта/демо
 ├── outputs/                              # исключено из Git: текстовые отчёты
 └── papers/                               # исключено из Git: статьи и черновики
 ```
@@ -185,11 +189,14 @@ python experiments/predict_dem_ml.py \
 
 Для формальной подачи или передачи внешним экспертам рекомендуется использовать эту структуру как минимальный release-пакет:
 1. `README.md`
-2. `requirements.txt`
-3. `Структура данных.xlsx`
-4. `Задачи по DEM модели.docx`
-5. папка `experiments/`
-6. папка `notes/plan_DEM_ML.md`
+2. `README.en.md`
+3. `LICENSE`
+4. `requirements.txt`
+5. `Структура данных.xlsx`
+6. `Задачи по DEM модели.docx`
+7. папка `experiments/`
+8. `notes/plan_DEM_ML.md`
+9. `docs/summary_for_grant.md`
 
 ---
 
@@ -213,6 +220,14 @@ python experiments/predict_dem_ml.py \
 Это сделано намеренно: репозиторий ориентирован не на «косметически красивые» цифры, а на честную воспроизводимую исследовательскую базу для следующего этапа проекта.
 
 ---
+
+## Лицензия
+
+См. файл `LICENSE`.
+
+Коротко:
+- **код** репозитория распространяется по MIT-лицензии;
+- **данные и manuscript-материалы** не считаются автоматически открытыми, если иное не оговорено отдельно.
 
 ## Контакты и использование
 
