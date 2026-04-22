@@ -23,7 +23,7 @@ warnings.filterwarnings('ignore')
 
 RANDOM_STATE = 42
 rng = np.random.default_rng(RANDOM_STATE)
-BASE = Path('.')
+BASE = Path(__file__).resolve().parents[1]
 OUT = BASE / 'experiments' / 'article_results'
 OUT.mkdir(parents=True, exist_ok=True)
 

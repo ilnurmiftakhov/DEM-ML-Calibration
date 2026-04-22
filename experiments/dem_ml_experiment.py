@@ -20,7 +20,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from xgboost import XGBRegressor
 
 RANDOM_STATE = 42
-BASE = Path('.')
+BASE = Path(__file__).resolve().parents[1]
 OUT = BASE / 'experiments' / 'results'
 MODELS_DIR = BASE / 'experiments' / 'models'
 OUT.mkdir(parents=True, exist_ok=True)
