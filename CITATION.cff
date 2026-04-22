@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "DEM-ML-Calibration"
+version: "v0.1-pilot"
+type: software
+authors:
+  - family-names: "Miftakhov"
+    given-names: "Ilnur"
+repository-code: "https://github.com/ilnurmiftakhov/DEM-ML-Calibration"
+url: "https://github.com/ilnurmiftakhov/DEM-ML-Calibration"
+license: "MIT"
+date-released: "2026-04-22"
+abstract: >-
+  Pilot repository for DEM calibration of the angle of repose using machine
+  learning on a small local soil dataset. Includes reproducible experiment
+  scripts, trained pilot models, quantitative outputs, and grant/demo-ready
+  repository documentation.
+keywords:
+  - DEM
+  - discrete element method
+  - machine learning
+  - angle of repose
+  - soil
+  - surrogate modeling
+  - calibration

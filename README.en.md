@@ -68,6 +68,7 @@ DEM-ML-Calibration/
 ├── README.md
 ├── README.en.md
 ├── LICENSE
+├── CITATION.cff
 ├── requirements.txt
 ├── Структура данных.xlsx                  # source master table
 ├── Задачи по DEM модели.docx             # task description and working requirements
@@ -82,7 +83,8 @@ DEM-ML-Calibration/
 ├── notes/
 │   └── plan_DEM_ML.md                    # short project plan
 ├── docs/
-│   └── summary_for_grant.md              # one-page grant/demo brief
+│   ├── summary_for_grant.md              # one-page grant/demo brief
+│   └── release_notes_v0.1-pilot.md       # release notes for the pilot tag
 ├── outputs/                              # excluded from Git: text reports
 └── papers/                               # excluded from Git: manuscripts and article drafts
 ```
@@ -214,3 +216,7 @@ See `LICENSE`.
 In short:
 - the **code** in this repository is released under the MIT License;
 - the **research data files and manuscript-oriented text materials** remain restricted unless explicitly stated otherwise.
+
+## Citation
+
+See `CITATION.cff` for repository citation metadata.

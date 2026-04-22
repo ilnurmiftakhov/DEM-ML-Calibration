@@ -68,6 +68,7 @@ DEM-ML-Calibration/
 ├── README.md
 ├── README.en.md
 ├── LICENSE
+├── CITATION.cff
 ├── .gitignore
 ├── requirements.txt
 ├── Структура данных.xlsx                  # исходная master-таблица проекта
@@ -83,7 +84,8 @@ DEM-ML-Calibration/
 ├── notes/
 │   └── plan_DEM_ML.md                    # краткий рабочий план исследования
 ├── docs/
-│   └── summary_for_grant.md              # краткий one-page brief для гранта/демо
+│   ├── summary_for_grant.md              # краткий one-page brief для гранта/демо
+│   └── release_notes_v0.1-pilot.md       # release notes для тега v0.1-pilot
 ├── outputs/                              # исключено из Git: текстовые отчёты
 └── papers/                               # исключено из Git: статьи и черновики
 ```
@@ -228,6 +230,10 @@ python experiments/predict_dem_ml.py \
 Коротко:
 - **код** репозитория распространяется по MIT-лицензии;
 - **данные и manuscript-материалы** не считаются автоматически открытыми, если иное не оговорено отдельно.
+
+## Цитирование
+
+Для корректного цитирования репозитория используйте файл `CITATION.cff`.
 
 ## Контакты и использование
 
