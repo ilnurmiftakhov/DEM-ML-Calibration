@@ -1,0 +1,4 @@
+﻿task,model,loo_mae,logo_mae
+phi_exp_soil,gpr,0.8915468770046665,8.017371830321883
+phi_dem_surrogate,xgboost,2.3277926921844485,9.32878885269165
+delta_phi_calibration,dummy_mean,0.5666666666666659,0.5527777777777771

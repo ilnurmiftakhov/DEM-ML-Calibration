@@ -1,0 +1,13 @@
+﻿task,model,sample_id,actual,predicted,residual
+phi_dem_surrogate,xgboost,S001,15.1,14.958133,-0.14186725616455043
+phi_dem_surrogate,xgboost,S002,16.0,15.083516,-0.9164838790893555
+phi_dem_surrogate,xgboost,L001,19.5,20.778753,1.2787532806396484
+phi_dem_surrogate,xgboost,L002,21.1,23.433372,2.3333724975585923
+phi_dem_surrogate,xgboost,M001,26.9,26.091402,-0.8085979461669908
+phi_dem_surrogate,xgboost,M002,27.6,27.58894,-0.011060333251954546
+phi_dem_surrogate,xgboost,M003,24.8,22.093746,-2.7062538146972663
+phi_dem_surrogate,xgboost,H001,50.8,53.478836,2.6788360595703153
+phi_dem_surrogate,xgboost,H002,57.2,48.162933,-9.037066650390628
+phi_dem_surrogate,xgboost,H003,43.1,49.682426,6.582426452636717
+phi_dem_surrogate,xgboost,S003,14.9,15.096316,0.19631633758544886
+phi_dem_surrogate,xgboost,M004,25.1,26.342478,1.2424777984619126

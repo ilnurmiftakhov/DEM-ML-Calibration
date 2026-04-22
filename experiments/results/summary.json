@@ -1,0 +1,64 @@
+{
+  "sanity_checks": {
+    "n_rows": 12,
+    "n_cols": 20,
+    "missing_per_column": {
+      "sample_id": 0,
+      "soil_type": 0,
+      "omega": 0,
+      "sand_pct": 0,
+      "silt_pct": 0,
+      "clay_pct": 0,
+      "rho_bulk": 0,
+      "model_n": 0,
+      "model_t": 0,
+      "model_c": 0,
+      "k_d": 0,
+      "kd_k": 0,
+      "e": 0,
+      "d_p": 0,
+      "phi_exp": 0,
+      "phi_exp_sd": 0,
+      "phi_DEM": 0,
+      "phi_DEM_sd": 0,
+      "delta_phi": 0,
+      "split": 0
+    },
+    "duplicate_rows": 0,
+    "delta_phi_matches_formula": true,
+    "sand_silt_clay_sum_unique": [
+      100
+    ],
+    "split_counts": {
+      "train": 6,
+      "val": 3,
+      "test": 3
+    }
+  },
+  "best_models": [
+    {
+      "task": "phi_exp_soil",
+      "target": "phi_exp",
+      "model": "gpr",
+      "rmse": 1.0828255896133814,
+      "mae": 0.8915468770046665,
+      "r2": 0.9935197971258823
+    },
+    {
+      "task": "phi_dem_surrogate",
+      "target": "phi_DEM",
+      "model": "xgboost",
+      "rmse": 3.531678476415221,
+      "mae": 2.3277926921844485,
+      "r2": 0.9325581197000566
+    },
+    {
+      "task": "delta_phi_calibration",
+      "target": "delta_phi",
+      "model": "dummy_mean",
+      "rmse": 0.6482015807263947,
+      "mae": 0.5666666666666659,
+      "r2": -0.19008264462809876
+    }
+  ]
+}

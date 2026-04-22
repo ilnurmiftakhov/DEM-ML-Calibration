@@ -1,0 +1,26 @@
+[
+  {
+    "task": "phi_exp_soil",
+    "target": "phi_exp",
+    "model": "gpr",
+    "rmse": 1.0828255896133814,
+    "mae": 0.8915468770046665,
+    "r2": 0.9935197971258823
+  },
+  {
+    "task": "phi_dem_surrogate",
+    "target": "phi_DEM",
+    "model": "xgboost",
+    "rmse": 3.531678476415221,
+    "mae": 2.3277926921844485,
+    "r2": 0.9325581197000566
+  },
+  {
+    "task": "delta_phi_calibration",
+    "target": "delta_phi",
+    "model": "dummy_mean",
+    "rmse": 0.6482015807263947,
+    "mae": 0.5666666666666659,
+    "r2": -0.19008264462809876
+  }
+]
