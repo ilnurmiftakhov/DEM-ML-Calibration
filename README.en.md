@@ -69,6 +69,8 @@ DEM-ML-Calibration/
 ├── README.en.md
 ├── LICENSE
 ├── CITATION.cff
+├── .zenodo.json
+├── CONTRIBUTING.md
 ├── requirements.txt
 ├── Структура данных.xlsx                  # source master table
 ├── Задачи по DEM модели.docx             # task description and working requirements
@@ -84,7 +86,8 @@ DEM-ML-Calibration/
 │   └── plan_DEM_ML.md                    # short project plan
 ├── docs/
 │   ├── summary_for_grant.md              # one-page grant/demo brief
-│   └── release_notes_v0.1-pilot.md       # release notes for the pilot tag
+│   ├── release_notes_v0.1-pilot.md       # release notes for the pilot tag
+│   └── release_description_v0.1-pilot.md # compact GitHub Release description
 ├── outputs/                              # excluded from Git: text reports
 └── papers/                               # excluded from Git: manuscripts and article drafts
 ```
@@ -220,3 +223,11 @@ In short:
 ## Citation
 
 See `CITATION.cff` for repository citation metadata.
+
+## Archival metadata
+
+Zenodo-ready metadata is provided in `.zenodo.json`.
+
+## Contribution policy
+
+See `CONTRIBUTING.md` and `.github/CODEOWNERS`.

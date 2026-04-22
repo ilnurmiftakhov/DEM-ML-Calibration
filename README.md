@@ -69,6 +69,8 @@ DEM-ML-Calibration/
 ├── README.en.md
 ├── LICENSE
 ├── CITATION.cff
+├── .zenodo.json
+├── CONTRIBUTING.md
 ├── .gitignore
 ├── requirements.txt
 ├── Структура данных.xlsx                  # исходная master-таблица проекта
@@ -85,7 +87,8 @@ DEM-ML-Calibration/
 │   └── plan_DEM_ML.md                    # краткий рабочий план исследования
 ├── docs/
 │   ├── summary_for_grant.md              # краткий one-page brief для гранта/демо
-│   └── release_notes_v0.1-pilot.md       # release notes для тега v0.1-pilot
+│   ├── release_notes_v0.1-pilot.md       # release notes для тега v0.1-pilot
+│   └── release_description_v0.1-pilot.md # компактный текст для GitHub Release
 ├── outputs/                              # исключено из Git: текстовые отчёты
 └── papers/                               # исключено из Git: статьи и черновики
 ```
@@ -234,6 +237,14 @@ python experiments/predict_dem_ml.py \
 ## Цитирование
 
 Для корректного цитирования репозитория используйте файл `CITATION.cff`.
+
+## Архивирование и метаданные
+
+Для выгрузки в Zenodo подготовлен файл `.zenodo.json`.
+
+## Правила участия
+
+См. `CONTRIBUTING.md` и `.github/CODEOWNERS`.
 
 ## Контакты и использование
 

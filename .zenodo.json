@@ -1,0 +1,33 @@
+{
+  "title": "DEM-ML-Calibration",
+  "description": "Pilot repository for DEM calibration of the angle of repose using machine learning on a small local soil dataset. Includes reproducible experiment scripts, trained pilot models, quantitative outputs, and grant/demo-ready repository documentation.",
+  "creators": [
+    {
+      "name": "Miftakhov, Ilnur",
+      "affiliation": "[Add affiliation before archival deposition]",
+      "orcid": "[Add ORCID before archival deposition]"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": [
+    "DEM",
+    "discrete element method",
+    "machine learning",
+    "angle of repose",
+    "soil",
+    "surrogate modeling",
+    "calibration"
+  ],
+  "notes": "Code is provided under MIT. Research data files and manuscript-oriented materials may have separate restrictions; see LICENSE and repository documentation.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ilnurmiftakhov/DEM-ML-Calibration",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "version": "v0.1-pilot",
+  "language": "eng"
+}

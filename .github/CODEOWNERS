@@ -1,0 +1,15 @@
+# Default owner for the repository
+* @ilnurmiftakhov
+
+# Core research and experiment code
+/experiments/ @ilnurmiftakhov
+/notes/ @ilnurmiftakhov
+/docs/ @ilnurmiftakhov
+
+# Repository metadata and policies
+/README.md @ilnurmiftakhov
+/README.en.md @ilnurmiftakhov
+/LICENSE @ilnurmiftakhov
+/CITATION.cff @ilnurmiftakhov
+/.zenodo.json @ilnurmiftakhov
+/CONTRIBUTING.md @ilnurmiftakhov
